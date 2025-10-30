@@ -9,13 +9,13 @@ It complements the IBM Quantum experiment, providing a hands-on comparison betwe
 
 | File | Description |
 |------|--------------|
-| `BellQSharpFixed/` | Q# project folder containing the Bell-state operation and host C# driver. |
+| `BellQSharp/` | Q# project folder containing the Bell-state operation and host C# driver. |
 
 ---
 ## Files
 - Program.cs – C# host that runs the Q# operation.
 - Operations.qs – Q# operation that prepares and measures the Bell state.
-- BellQSharpFixed.csproj – Project file with Q# SDK and dependencies.
+- BellQSharp.csproj – Project file with Q# SDK and dependencies.
 
 ## Setup Instructions
 
