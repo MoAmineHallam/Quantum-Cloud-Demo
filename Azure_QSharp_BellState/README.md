@@ -9,7 +9,7 @@ It complements the IBM Quantum experiment, providing a hands-on comparison betwe
 
 | File | Description |
 |------|--------------|
-| `BellQSharp/` | Q# project folder containing the Bell-state operation and host C# driver. |
+| `BellQSharp/(BellQSharp/)` | Q# project folder containing the Bell-state operation and host C# driver. |
 
 ---
 ## Files
