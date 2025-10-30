@@ -27,7 +27,7 @@ Make sure you have **Python 3.9+** installed.
 
 Then open a terminal and run: pip install qiskit qiskit-aer qiskit-ibm-runtime matplotlib
 
-2. Create an IBM Quantum Account
+### 2. Create an IBM Quantum Account
 
 Go to https://quantum.ibm.com
 
@@ -37,7 +37,7 @@ Go to https://quantum.ibm.com
 
   3. Copy your API Token. It will look something like this: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
-3. Save Your IBM Quantum API Key Locally
+### 3. Save Your IBM Quantum API Key Locally
 
 You can save your key in one of two ways:
 
@@ -55,7 +55,7 @@ export QISKIT_IBM_TOKEN=YOUR_API_KEY
 
 Once you log in, your credentials are stored locally — no need to log in again.
 
-4. Run the Experiment
+### 4. Run the Experiment
 
 Execute the script in your terminal:
 
@@ -88,7 +88,7 @@ Counts: {'00': 1950, '11': 2100, '01': 20, '10': 26}
 === Hardware (+ mitigation) ===
 Counts: {'00': 2020, '11': 2050, '01': 10, '10': 16}
 
-Result Visualization
+### Result Visualization
 
 Below is an example of the generated comparison plot between simulator and hardware runs:
 
