@@ -10,5 +10,5 @@ The goal is to demonstrate cloud-based quantum computing workflows, comparing si
 
 For detailed instructions, code, and results, see the section-specific READMEs:
 
-- [IBM Quantum Section](IBM_Quantum/README.md)  
-- [Azure Q# Section](Azure_QSharp/README.md)  
+- [IBM Quantum Section](IBM_Quantum_BellState/README.md)  
+- [Azure Q# Section](Azure_QSharp_BellState/README.md)  
