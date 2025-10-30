@@ -1,4 +1,4 @@
-# 🧠 IBM Quantum Cloud Demonstration
+# IBM Quantum Cloud Demonstration
 
 This repository contains the Python experiment used in our **Quantum Computing and Cloud Services** report.  
 It demonstrates how to execute a **Bell-state circuit** on both:
@@ -9,7 +9,7 @@ The results include **counts, probabilities**, and a **comparison plot** between
 
 ---
 
-## 🧩 Files Included
+## Files Included
 
 | File | Description |
 |------|--------------|
@@ -17,7 +17,7 @@ The results include **counts, probabilities**, and a **comparison plot** between
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 Follow these steps to replicate the experiment exactly as done in the report.
 
@@ -31,11 +31,11 @@ Then open a terminal and run: pip install qiskit qiskit-aer qiskit-ibm-runtime m
 
 Go to https://quantum.ibm.com
 
-  1. Sign up (it’s free).
+- Sign up (it’s free).
 
-  2. Once logged in, click on your profile icon (top right) → Account.
+- Once logged in, click on your profile icon (top right) → Account.
 
-  3. Copy your API Token. It will look something like this: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+- Copy your API Token. It will look something like this: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 ### 3. Save Your IBM Quantum API Key Locally
 
@@ -63,15 +63,15 @@ python QC_ibm_demo.py
 
 This will:
 
-  Build and simulate the Bell-state circuit
+  - Build and simulate the Bell-state circuit
 
-  Select an available IBM Quantum hardware backend
+  - Select an available IBM Quantum hardware backend
 
-  Run on real hardware (with and without mitigation)
+  - Run on real hardware (with and without mitigation)
 
-  Generate and display a comparison plot
+  - Generate and display a comparison plot
 
-  Example Output
+Example Output:
 
   === Simulator (ideal) ===
 Counts: {'00': 2048, '11': 2048}
@@ -94,10 +94,10 @@ Below is an example of the generated comparison plot between simulator and hardw
 
 <img width="556" height="417" alt="image" src="https://github.com/user-attachments/assets/269f6fe1-a403-43d2-a602-4391130bea77" />
 
-Notes
+Notes:
 
-If you don’t have an IBM Quantum API key, only the simulator (Aer) part will execute.
+- If you don’t have an IBM Quantum API key, only the simulator (Aer) part will execute.
 
-Hardware jobs may queue depending on the current IBM Quantum public device load.
+- Hardware jobs may queue depending on the current IBM Quantum public device load.
 
-For academic users, university or research accounts can unlock premium devices with reduced queue times.
+- For academic users, university or research accounts can unlock premium devices with reduced queue times.
