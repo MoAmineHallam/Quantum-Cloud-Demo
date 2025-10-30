@@ -13,9 +13,9 @@ It complements the IBM Quantum experiment, providing a hands-on comparison betwe
 
 ---
 ## Files
-- Program.cs – C# host that runs the Q# operation.
-- Operations.qs – Q# operation that prepares and measures the Bell state.
-- BellQSharp.csproj – Project file with Q# SDK and dependencies.
+- [Program.cs](BellQSharp/Program.cs) – C# host that runs the Q# operation.
+- [Operations.qs](BellQSharp/Operations.qs) – Q# operation that prepares and measures the Bell state.
+- [BellQSharp.csproj](BellQSharp/BellQSharp.csproj) – Project file with Q# SDK and dependencies.
 
 ## Setup Instructions
 
