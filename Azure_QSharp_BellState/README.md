@@ -12,16 +12,22 @@ It complements the IBM Quantum experiment, providing a hands-on comparison betwe
 | `BellQSharpFixed/` | Q# project folder containing the Bell-state operation and host C# driver. |
 
 ---
+## Files
+- Program.cs – C# host that runs the Q# operation.
+- Operations.qs – Q# operation that prepares and measures the Bell state.
+- BellQSharpFixed.csproj – Project file with Q# SDK and dependencies.
 
 ## Setup Instructions
 
 Follow these steps to replicate the Azure Q# experiment.
 
-### 1. Install .NET SDK and QDK
+### 1. Prerequisites
 
-Make sure you have **.NET 7 or 8 SDK** installed.  
-Then install the **Microsoft Quantum Development Kit**:
+.NET SDK: The project was originally created with .NET 6.0.
+If you have the latest .NET (e.g., .NET 8.0/9.0), you may encounter build errors.
+Solution: Install the .NET 6.0 SDK from https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 
+Q# Development Kit: Installed via NuGet (packages are already in the .csproj).
 > dotnet tool install -g Microsoft.Quantum.IQSharp
 > dotnet new --install Microsoft.Quantum.ProjectTemplates
 
