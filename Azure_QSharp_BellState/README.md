@@ -1,17 +1,58 @@
-# Azure Quantum Q# Bell State Experiment
+# Azure Quantum Bell-State Demonstration (Q#)
 
-## Overview
-Q# implementation of a Bell-state circuit using the Microsoft Quantum Development Kit (QDK),
-running locally with the QuantumSimulator or deployable on Azure Quantum.
+This repository contains the **Q# implementation** of a two-qubit Bell-state experiment executed using **Azure Quantum simulators**.  
+It complements the IBM Quantum experiment, providing a hands-on comparison between **Q# (Azure)** and **Python/Qiskit (IBM Quantum)** for cloud-based quantum computing.
 
-## How to Run (Local)
-1. Install .NET 8 or 9 SDK.
-2. Clone or download this folder.
-3. Open PowerShell here and run:
-dotnet restore
-dotnet build
-dotnet run
-4. The console will display measurement results for the Bell state.
+---
 
-## Results
-Screenshot of the simulator output is included in the `results/` folder.
+## Files Included
+
+| File | Description |
+|------|--------------|
+| `BellQSharpFixed/` | Q# project folder containing the Bell-state operation and host C# driver. |
+
+---
+
+## Setup Instructions
+
+Follow these steps to replicate the Azure Q# experiment.
+
+### 1. Install .NET SDK and QDK
+
+Make sure you have **.NET 7 or 8 SDK** installed.  
+Then install the **Microsoft Quantum Development Kit**:
+
+> dotnet tool install -g Microsoft.Quantum.IQSharp
+> dotnet new --install Microsoft.Quantum.ProjectTemplates
+
+### 2. Clone or Download the Project
+
+Clone this repository and navigate to the Q# project folder:
+
+> git clone https://github.com/MoAmineHallam/Quantum-Cloud-Demo.git
+> cd Quantum-Cloud-Demo/BellQSharpFixed
+
+### 3. Run the Q# Bell-State Simulation
+
+You can run the project using the Quantum simulator (local):
+
+> dotnet run
+
+Expected output (ideal Bell-state counts):
+
+=== Simulator (QuantumSimulator) ===
+Counts: {"00": 2048, "11": 2048}
+Probabilities: {"00": 0.5, "01": 0.0, "10": 0.0, "11": 0.5}
+
+!! No actual Azure subscription is required for local simulation.
+If you have an Azure Quantum workspace, you can target real hardware later using the Q# Azure target.
+
+### Notes
+
+- The Q# project demonstrates the same quantum concept as the IBM Qiskit experiment: creating and measuring a two-qubit Bell state.
+
+- Using Q# allows exploration of Microsoft’s quantum ecosystem and integrates naturally with C#/.NET.
+
+- The output can be screenshotted and included in reports to illustrate expected results.
+
+
