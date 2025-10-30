@@ -36,7 +36,7 @@ Q# Development Kit: Installed via NuGet (packages are already in the .csproj).
 Clone this repository and navigate to the Q# project folder:
 
 > git clone https://github.com/MoAmineHallam/Quantum-Cloud-Demo.git
-> cd Quantum-Cloud-Demo/BellQSharpFixed
+> cd Quantum-Cloud-Demo/BellQSharp
 
 ### 3. Run the Q# Bell-State Simulation
 
